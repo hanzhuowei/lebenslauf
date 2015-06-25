@@ -1,0 +1,154 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,arial]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+% \usepackage[ngerman]{babel}
+% \usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+\usepackage{pdfpages}                		% add extra external pdf files, e.g. to form an appendix 
+%use includepdf[pages={xx},pagecommand={}]{xxx.pdf}	page specifies the pages of xxx.pdf you wanted to insert. {-}whole pdf
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}%, top= 2cm,bottom=5cm
+\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Zhuowei}{\rlap{Han}}
+\title{M.Sc Electronic and Information Technology}                               % optional, remove / comment the line if not wanted
+\address{Pfaffenwaldring 44D}{70569 Stuttgart\medskip}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{+49~(0)~176~6189~1464}                   % optional, remove / comment the line if not wanted
+%\phone[fixed]{+2~(345)~678~901}                    % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+\email{hanzhuowei1226@gmail.com}                               % optional, remove / comment the line if not wanted
+%\homepage{www.johndoe.com}                         % optional, remove / comment the line if not wanted
+%\extrainfo{chinesisch}                 % optional, remove / comment the line if not wanted
+\photo[4cm][0pt]{bewerbung.jpg}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}x
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%-----       letter       ---------------------------------------------------------
+ %recipient data
+%  \recipient{Robert Bosch GmbH}{Frau/Herr \\123 somestreet\\some city}
+%  \date{\today}
+%  \opening{\textbf{Bewerbung als Forschungsingenieur \\ Referenz Nr: DE00346864}\\ \vspace{5mm} Sehr geehrte Frau XXX,}
+%  
+%  mein Masterstudium der Elektro- und Informationstechnik mit dem Schwerpunkt Kommunikationstechnik werde ich bald mit der Masterarbeit über 
+%  
+%  % \closing{Yours faithfully,}
+%  \closing{Mit freundlichen Grüßen}
+%  \enclosure[Attached]{curriculum vit\ae{}}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+%  \makelettertitle
+%  
+%  
+%  \makeletterclosing
+%  \clearpage
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+% \patchcmd{\makeletterfooter}{\fancyfoot}{\fancyhead}{ee}{ff}
+
+\makecvtitle
+\vspace{3mm}
+\section{Education}
+\cventry{10/2012 -- 05/2015}{M.Sc. Electronic and Information Technology at University of Stuttgart}{Focus: Information and Communication Technology}{}{}{Master Thesis: \textit{Deep Neural Network for Learning Speech Emotion Representation}
+\begin{itemize}
+ \item Study the features of speech emotion and increasing knowledge in machine learning and deep learning
+ \item Building probabilistic models for unsupervised feature learning in Python
+ \item Evaluating proposed models and classifiers in comparison to state of the art
+\end{itemize}
+}
+\cventry{08/2008 -- 07/2012}{B.Sc. Electronic- and Information Technology at Xidian University in Xi'an, China}{Focus: High-Frequency Technology}{GPA: 82/100}{}{Bachelor Thesis: \textit{A Study of Frequency-reconfigurable Multi-band Antenna}
+\begin{itemize}
+ \item Study and modelling of three-band antenna in ANSYS HFSS.
+\end{itemize}
+}
+
+% \section{Masterarbeit}
+% \cvitem{title}{\emph{Title}}
+% % \cvitem{supervisors}{Supervisors}
+% \cvitem{description}{Short thesis abstract}
+
+\section{Experience}
+%\subsection{Vocational}
+\cventry[3pt]{09/2013 -- 03/2014}{Study Thesis}{Robert Bosch GmbH}{}{}{Title: \textit{Optimization and Validation of Adaptive Threshold Parameters in Ultra-
+Sonic Object Detection System}
+\begin{itemize}
+\item Study the dependence of threshold parameter on the driving surface and the sending patterns for different distances
+\item Design measurement settings and execution of measurement and analysis of measurement data and determination of missing data/ scene
+\item Optimization and validation of threshold parameter for given false alarm rate
+\item Further development of Matlab (-GUI) analysing-tool and of Excel-VBA for automatic evaluation
+\end{itemize}
+}
+
+\cventry[3pt]{10/2013 -- 02/2014}{Practical Excercise in Laboratory}{Institute of Signal Processing and System Theory, University of Stuttgart}{}{}{Statistical Signal Processing – Automotive Radar:
+\begin{itemize}
+ \item Processing radar signal from simulation and measurement.
+ \item Distance estimation and vehicle tracking based on angle information in Matlab.
+\end{itemize}
+}
+
+\cventry[3pt]{04/2013 -- 07/2013}{Scientific Assistant}{Institute of High-Frequency Technology, University of  Stuttgart}{}{}{
+\begin{itemize}
+\item Developing analyse-tools for antenna diagram with Matlab-GUI
+\item Processing accounting data with Excel-VBA 
+\end{itemize}
+}
+
+\cventry[1pt]{09/2010}{Electronic Engineering Training}{Xidian Universität}{}{}{\begin{itemize}\item Buildup of heterodyne receiver \end{itemize}}
+
+
+\section{Extracurricular Activities}
+\cvitem{05/2013}{Participant of „Rohde \& Schwarz Case Study“, Stuttgart} 
+\cvitem{10/2012 -- 09/2013}{Mentee of „Intercultural Mentoring Program“, University of Stuttgart}
+
+
+\section{Computer Skills}
+\cvitem[3pt]{Programming}{Skilled in Matlab (incl. GUI)/ Excel-VBA/ Python \newline
+basic knowledge in Javascript/ C++}
+\cvitem{Office}{Skilled in MS-Office \newline basic knowledge in Libre-Office}
+\cvitem{Text}{\LaTeX{}}
+\cvitem{OS}{Window/ Linux-Ubuntu}
+
+\section{Languages}
+\cvdoubleitem{Chinese}{Mother Spoke}{}{}
+\cvdoubleitem{German}{fluent}{}{}
+\cvdoubleitem{English}{fluent}{}{}
+
+\section{Interests}
+\cvitem{}{Music, Fitness, Guitar}
+
+\vspace{1cm}
+\includegraphics[scale=0.7]{signature.png}\\
+\today, Stuttgart
+
+
+
+%\clearpage\end{CJK*}                              % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
+\end{document}
+
+
+%% end of file `template.tex'.

@@ -1,0 +1,186 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+
+\name{Yuxiang Zhang} % Your name
+\address{8800 Biological Grade, La Jolla, CA 92037-0208} % Your secondary addess (optional)
+\address{(858) 336-6327 or kimiyuxiang@gmail.com} % Your phone number and email
+
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	OBJECTIVE SECTION
+%----------------------------------------------------------------------------------------
+ 
+\begin{rSection}{OBJECTIVE} 
+
+To obtain an intern position with analytical and programming skills, with special interests in wave field modeling and near surface imaging.
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%	Summary 
+%----------------------------------------------------------------------------------------
+ 
+\begin{rSection}{SUMMARY OF QUALIFICATIONS}  
+\begin{itemize}
+\item Strong numerical analysis and modeling background.
+\item Proficient in programming, including multi-platform programming and parallel computing. 
+\item Strong communication, team working and problem solving skills.
+\end{itemize}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{RESEARCH  EXPERIENCE}
+
+\begin{rSubsection}{Marine EM Laboratory,  Scripps Institution of Oceanography
+}{09/2013-Present}{Research Assistant}{UC San Diego}
+\item Contributed to the first release of MARE3DEM in the annual meeting of SEG, 2014. 
+\item Integrated Spectral Bisection Algorithm(C) into the 3D EM modeling package MARE3DEM(Fortran90), using the Intel C and Fortran compilers. 
+\item Implemented residual based goal-oriented error estimator to MARE3DEM, improving the accuracy and efficiency.
+\item Modularized the computational geometry routine to compute mesh topology information, expediting the stiffness matrix formulation in the finite element modeling process. 
+%\item Accelerated the stiffness matrix formulation for the weak form of the discretized Maxwell Equation. 
+\item Alleviating the computational expense for MARE3DEM by implementing the longest edge bisection technique as the new mesh refinement engine.
+%\item Collaborated with Prof. Jeff Ovall to develop new 3D computational geometry algorithm.
+%\item Found a new way to refine the 3D finite element mesh, using the longest edge bisection technique in the Finite Element ToolKit(FETK). 
+\item Designed and established the C-Fortran mesh refinement interface between Finite Element ToolKit(FETK) and MARE3DEM, debugging using LLDB. 
+\item Collaborate with the Center for Computational Mathematics to integrate Bank and Holst Domain Decomposition Paradigm into MARE3DEM. 
+\item Conducted performance analysis for MARE3DEM on the local HPC, with a 3D model including bathymetry and resistive oil reservoir.
+
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{San Diego Supercomputer Center}{06/2013-09/2013}{Research Assistant}{UC San Diego}
+\item Performed strong and weak scalability test for the paralleled anelastic 3D wave propagation package(AWP) on Triton Shared Computing Cluster(TSCC). 
+\item Completed the performance(Profiling and tracing) analysis of AWP, using TAU on Kraken Cluster. 
+%\item Conducted large-scale 3D numerical simulations of seismic wave propagation on the distributed architecture of TSCC.
+%\item Established the file I/O interface between AWP and the full-3D waveform tomography package(F3DT) to improve run-time efficiency. 
+\item Researched the theory of Full 3D Waveform Tomography and documented the workflow to compile and run F3DT package on Triton Cluster.
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Center for Subsurface Imaging and Fluid Modeling
+}{02/2012-04/2012}{Research Intern}{King Abdullah Univ. of Sci. and Tech.}
+
+\item Seismic data processing and interpreting, using traveltime and waveform tomography.
+\item Participated onshore seismic survey and electromagnetic data acquisition, improved team working and communication skills.
+\item Studied seismic interferometry and the theory of seismic imaging.
+
+\end{rSubsection}
+
+\begin{rSubsection}{Institute of Geology and Geophysics}{06/2011-09/2011}{Research Intern}{Chinese Academy of Sciences}
+
+\item Researched and tested the finite difference scheme for elastic wave propagation.
+\item Studied the theory of frequency-domain Full Waveform Inversion. 
+
+\end{rSubsection}
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{COMPUTER SKILLS}
+
+{\sl Languages:} 
+FORTRAN 90/03, C, C++, CUDA,  MPI and Unix Shell Scripting. \\
+{\sl Tools:} 
+\quad \quad  Makefile, LLDB, Matlab, Subversion, LaTeX, TracWiki and Vim.
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{EDUCATION}
+
+{\sl Ph.D.,} Applied Geophysics\\
+University of California, San Diego  \hfill 2012-Present \\
+Selected courses: AdvTech/Computational Math I/II/III (A+), Parallel Comput.Sci. \& Engineer (A+)
+ 
+ {\sl B.S.,} Applied Geophysics\\
+University of Science and Technology of China. \hfill  2008-2012\\
+G.P.A   3.7/4.0
+
+ {\sl Visiting Student,} Geology\\
+University of G\"{o}ttingen, Germany.    \hfill   09/2011-02/2012\\
+
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%	EXTRACURRICULAR ACTIVITIES SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{EXTRACURRICULAR  ACTIVITIES}
+
+10/2014 \quad SEG annual Meeting, Denver, Volunteering\\
+06/2014 \quad UC San Diego PhD Career Conference, Volunteering\\
+05/2014 \quad MOCHA marine MT deployment  Oregon Offshore, Volunteering\\	
+03/2014 \quad Seafloor Electromagnetic Methods Consortium, Presenting \\
+12/2013 \quad American Geophysical Union Annual Meeting, San Fransisco\\
+11/2013 \quad Nvidia GPU Workshop, San Diego Supercomputer Center\\
+08/2013 \quad Discover Big Data Workshop, SDSC 2013 Summer Institute\\
+06/2013 \quad MPI Workshop by  XSEDE, UC Los Angeles\\
+06/2013 \quad UCSD Triton 5K Running 
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	HONORS AND  AWARDS
+%----------------------------------------------------------------------------------------
+\begin{rSection}{HONORS AND  AWARDS}
+
+2012  \quad \quad RA Scholarship, UCSD/SDSU\\
+2011  \quad \quad Erasmus Scholarship, EACEA\\
+2011  \quad \quad Outstanding Student Scholarship, USTC\\
+2010  \quad \quad National Aspiration Scholarship.\\
+%2010  \quad \quad Outstanding Student Scholarship, USTC\\
+2009  \quad \quad Outstanding Student Scholarship, USTC\\
+2008  \quad \quad Provincial Champion in Mathmatics, National College Entrance Exam.
+
+\end{rSection}
+
+
+
+%----------------------------------------------------------------------------------------
+%	PROFESSIONAL SOCIETIES
+%----------------------------------------------------------------------------------------
+\begin{rSection}{PROFESSIONAL AFFILIATION}
+American Geophysical Union \\ Society of Exploration Geophysicists
+% \\ UCSD Strides Running Club
+%  \\  Association of Scientific Expedition of USTC
+
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}

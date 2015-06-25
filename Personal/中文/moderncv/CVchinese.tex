@@ -1,0 +1,120 @@
+%% start of file `template-zh.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[12pt,a4paper,sans]{moderncv}   % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv 主题
+\moderncvstyle{classic}                        % 选项参数是 ‘casual’, ‘classic’, ‘oldstyle’ 和 ’banking’
+\moderncvcolor{black}                          % 选项参数是 ‘blue’ (默认)、‘orange’、‘green’、‘red’、‘purple’ 和 ‘grey’
+%\nopagenumbers{}                             % 消除注释以取消自动页码生成功能
+
+% 字符编码
+\usepackage[utf8]{inputenc}                   % 替换你正在使用的编码
+\usepackage{CJKutf8}
+
+% 调整页面出血
+\usepackage[scale=0.75,top=2.3cm,bottom=1.7cm]{geometry}
+\setlength{\hintscolumnwidth}{3.2cm}           % 如果你希望改变日期栏的宽度
+
+% personal data
+\name{韩卓伟}{}
+%\title{chinesisch}                               % optional, remove / comment the line if not wanted
+\address{Pfaffenwaldring 44D}{70569 Stuttgart}{Deutschland}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{+49~(0)~176~6189~1464}                   % optional, remove / comment the line if not wanted
+%\phone[fixed]{+2~(345)~678~901}                    % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+\email{hanzhuowei1226@gmail.com}                               % optional, remove / comment the line if not wanted
+%\homepage{www.johndoe.com}                         % optional, remove / comment the line if not wanted
+\extrainfo{\textit{籍贯:陕西西安} }                % optional, remove / comment the line if not wanted
+%\photo[64pt][0pt]{Passbild.jpg}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                
+
+% 显示索引号;仅用于在简历中使用了引言
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+
+% 分类索引
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            内容
+%----------------------------------------------------------------------------------
+\begin{document}
+\begin{CJK}{UTF8}{gbsn}                       % 详情参阅CJK文件包
+\maketitle
+\vspace{-3mm}
+\setlength{\parskip}{0.25em} % doc line spacing global.
+
+
+\section{教育背景}
+\cventry{2012.10 -- 至今}{硕士生}{斯图加特大学}{电子工程专业}{}{}  % 第3到第6编码可留白
+\cventry{2008.9 -- 2012.7}{本科}{西安电子科技大学}{电子信息工程专业}{}{
+%毕业论文：
+%\begin{itemize}
+%\item 题目:频率可重构天线研究
+%\item 在共面波导馈电的H型辐射单元构成的微带天线上，通过偏置电压控制变容二极管，对天线工作模式进行切换，使天线工作于单频、双频、三频模式下并通过仿真测试证明设计的可行性。
+%\end{itemize}
+}
+
+
+
+\section{工作实习}
+\cventry[1em]{2013.09 -- 2014.03}{研究论文}{罗伯特·博世有限公司,斯图加特大学}{}{\newline 题目:《应用于汽车超声波物体探测的检测阈的参数优化和验证》}{%
+\vspace{0.5pt}	
+\begin{itemize} \itemsep2pt%
+\item 测试超声波测距系统，优化检测方法，采集测试数据	
+\item 分析测试数据，评估影响系统性能的变量，优化并验证检测阈的参数
+\item 结合Matlab和Excel的VBA编程优化了数据分析系统，缩短数据分析时间，进一步实现系统自动化。
+\end{itemize}
+}
+
+\cventry[1em]{2013.04 -- 2013.07}{学生研究工作}{斯图加特大学高频学院}{}{}{%\vspace{0.005em}
+\vspace{0.5pt}	
+\begin{itemize}\itemsep2pt
+\item 使用Matlab GUI 编写天线方向图测试的图形交互界面
+\item 使用Excel VBA 实现财务数据自动化处理
+\end{itemize} }
+\cventry[1em]{2010.09}{电装实习}{西安电子科技大学}{}{}{%\vspace{0.005em}
+\vspace{0.5pt}	
+\begin{itemize}\itemsep2pt
+\item 学习基础电子元件焊接
+\item 制造简单的超外差式半导体收音机
+\end{itemize}
+}
+
+
+\section{专业技能}
+\cvdoubleitem{编程语言}{Matlab, VBA, Python}{}{}
+\cvdoubleitem{办公软件}{\LaTeX{}, MS-Office}{}{}
+
+\section{语言技能}
+\cvdoubleitem{中文}{母语}{}{}
+\cvdoubleitem{德语}{良好, Test-DaF 17}{}{}
+\cvdoubleitem{英语}{良好, CET-6}{}{}
+
+% 来自BibTeX文件但不使用multibib包的出版物
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% BibTeX的数字标签
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{publications}                    % 'publications' 是BibTeX文件的文件名
+
+% 来自BibTeX文件并使用multibib包的出版物
+%\section{出版物}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}               % 'publications' 是BibTeX文件的文件名
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}               % 'publications' 是BibTeX文件的文件名
+
+\clearpage\end{CJK}
+\end{document}
+
+
+
