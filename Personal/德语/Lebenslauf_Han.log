@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.4.23)  10 JUN 2015 17:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.4.23)  4 JUL 2015 15:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -958,7 +958,7 @@ File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
 )
 \makecvtitlepicturebox=\box47
 
-<bewerbung.jpg, id=30, 593.21625pt x 770.88pt>
+<bewerbung.jpg, id=31, 593.21625pt x 770.88pt>
 File: bewerbung.jpg Graphic file (type jpg)
  <use bewerbung.jpg>
 Package pdftex.def Info: bewerbung.jpg used on input line 84.
@@ -975,74 +975,83 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 86.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 95.
+(Font)              <10.95> on input line 97.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 95.
+(Font)              <8> on input line 97.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 95.
+(Font)              <6> on input line 97.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 107.
+(babel)             in language  on input line 117.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 107.
+(babel)             in language  on input line 117.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 126.
+(babel)             in language  on input line 131.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 126.
+(babel)             in language  on input line 131.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 126.
+(babel)             in language  on input line 131.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 126.
+(babel)             in language  on input line 131.
 [1
 
 {/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./bewer
 bung.jpg>]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 138.
+(babel)             in language  on input line 139.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 138.
+(babel)             in language  on input line 139.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 143.
+(babel)             in language  on input line 145.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 143.
+(babel)             in language  on input line 145.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 152.
+(babel)             in language  on input line 154.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 152.
+(babel)             in language  on input line 154.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 157.
+(babel)             in language  on input line 159.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 157.
- <signature.png, id=45, 121.20282pt x 55.70813pt>
+(babel)             in language  on input line 159.
+ <signature.png, id=46, 121.20282pt x 55.70813pt>
 File: signature.png Graphic file (type png)
 
 <use signature.png>
-Package pdftex.def Info: signature.png used on input line 161.
+Package pdftex.def Info: signature.png used on input line 163.
 (pdftex.def)             Requested size: 84.84138pt x 38.9954pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 167.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 167.
+(babel)             in language  on input line 165.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 167.
+(babel)             in language  on input line 165.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 167.
+(babel)             in language  on input line 165.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 167.
- [2 <./signature.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 167.
+(babel)             in language  on input line 165.
+ [2]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 169.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 169.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 169.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 169.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 169.
+ [3 <./signature.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 169.
  (./Lebenslauf_Han.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 167.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 167.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 169.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 169.
 Package rerunfilecheck Info: File `Lebenslauf_Han.out' has not changed.
-(rerunfilecheck)             Checksum: 2A8E134E6DD2EE0F3C1285042A319FE5;624.
+(rerunfilecheck)             Checksum: D11468410CB9F6F37BF62AE37BF6D0B8;624.
  ) 
 Here is how much of TeX's memory you used:
- 18152 strings out of 493117
- 297579 string characters out of 6135433
- 405610 words of memory out of 5000000
- 21365 multiletter control sequences out of 15000+600000
- 64649 words of font info for 71 fonts, out of 8000000 for 9000
+ 18158 strings out of 493117
+ 297672 string characters out of 6135433
+ 406641 words of memory out of 5000000
+ 21369 multiletter control sequences out of 15000+600000
+ 68100 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,12n,45p,10366b,361s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,13n,45p,10366b,367s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/
 texlive/2014/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/20
 14/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2014/texmf-di
@@ -1052,10 +1061,10 @@ lm/lmr8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/lm/lmri10.pf
 b></usr/local/texlive/2014/texmf-dist/fonts/type1/public/lm/lmro10.pfb></usr/lo
 cal/texlive/2014/texmf-dist/fonts/type1/public/lm/lmro17.pfb></usr/local/texliv
 e/2014/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on Lebenslauf_Han.pdf (2 pages, 500719 bytes).
+Output written on Lebenslauf_Han.pdf (3 pages, 507422 bytes).
 PDF statistics:
- 87 PDF objects out of 1000 (max. 8388607)
- 70 compressed objects within 1 object stream
- 9 named destinations out of 1000 (max. 500000)
- 19515 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 93 PDF objects out of 1000 (max. 8388607)
+ 75 compressed objects within 1 object stream
+ 10 named destinations out of 1000 (max. 500000)
+ 20027 words of extra memory for PDF output out of 20736 (max. 10000000)
 
