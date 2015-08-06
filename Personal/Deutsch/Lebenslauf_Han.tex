@@ -6,13 +6,13 @@
 % available at http://www.latex-project.org/lppl/.
 
 
-\documentclass[11pt,a4paper,arial]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+\documentclass[12pt,a4paper,arial]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
 
 % moderncv themes
 \moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
 \moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
 %\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
-%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
 
 % character encoding
 \usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
@@ -21,21 +21,22 @@
 \usepackage{pdfpages}                		% add extra external pdf files, e.g. to form an appendix 
 %use includepdf[pages={xx},pagecommand={}]{xxx.pdf}	page specifies the pages of xxx.pdf you wanted to insert. {-}whole pdf
 % adjust the page margins
-\usepackage[scale=0.75]{geometry}%, top= 2cm,bottom=5cm
-\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+\usepackage[scale=0.77]{geometry}%, top= 2cm,bottom=5cm
+\setlength{\hintscolumnwidth}{3.5cm}                % if you want to change the width of the column with the dates
 %\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
 
 % personal data
+%\name{Lebenslauf}{}
 \name{Zhuowei}{\rlap{Han}}
-\title{M.Sc Elektro- und Informationstechnik}                               % optional, remove / comment the line if not wanted
+\title{~}                               % optional, remove / comment the line if not wanted
 \address{Pfaffenwaldring 44D}{70569 Stuttgart\medskip}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
 \phone[mobile]{+49~(0)~176~6189~1464}                   % optional, remove / comment the line if not wanted
 %\phone[fixed]{+2~(345)~678~901}                    % optional, remove / comment the line if not wanted
 %\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
 \email{hanzhuowei1226@gmail.com}                               % optional, remove / comment the line if not wanted
-\homepage{de.linkedin.com/in/hanzhuowei}                         % optional, remove / comment the line if not wanted
+%\homepage{de.linkedin.com/in/hanzhuowei}                         % optional, remove / comment the line if not wanted
 %\extrainfo{chinesisch}                 % optional, remove / comment the line if not wanted
-\photo[4cm][0pt]{bewerbung.jpg}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+\photo[3cm][0pt]{../Bild/bewerbung.jpg}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
 %\quote{Some quote}                                 % optional, remove / comment the line if not wanted
 
 % to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
@@ -51,10 +52,12 @@
 %            content
 %----------------------------------------------------------------------------------
 \begin{document}
+\includepdf[]{../deckblatt_han.pdf}
+\includepdf[]{../TempAnschreiben/SignaSTC.pdf}
 %-----       letter       ---------------------------------------------------------
 % recipient data
 % \recipient{}{}
-%\recipient{Referenz Nr: FE11-11486-FN}{FERCHAU Engineering GmbH\\ Niederlassung Friedrichshafen \\ Otto-Lilienthal-Straße 6\\ 88046 Friedrichshafen}
+%\recipient{FERCHAU Engineering GmbH}{Niederlassung Friedrichshafen \\ Otto-Lilienthal-Straße 6\\ 88046 Friedrichshafen}
 % \date{\today}
 % \opening{Sehr geehrter Herr Kugler,}
 % 
@@ -64,7 +67,7 @@
 % \makelettertitle
 % mit großem Interesse habe ich die Stellenausschreibung zum „Ingenieur Algorithmen-Entwicklung Fahrerassistenzsysteme“ gelesen und reiche Ihnen hiermit meine Bewerbungsunterlagen ein.
 % 
-%Die FERCHAU Engineering GmbH als Nr.1 Deutschlands Engineering-Dienstleister stellt für mich den idealen Arbeitgeber dar. Die umfangreiche Ausrichtung des Unternehmens harmoniert ausgezeichnet mit meinem persönlichen Bestreben nach spannenden Projekten sowie innovative ausgerichtetem Denken und Agieren.
+%%Die FERCHAU Engineering GmbH als Nr.1 Deutschlands Engineering-Dienstleister stellt für mich den idealen Arbeitgeber dar. Die umfangreiche Ausrichtung des Unternehmens harmoniert ausgezeichnet mit meinem persönlichen Bestreben nach spannenden Projekten sowie innovative ausgerichtetem Denken und Agieren.
 %
 %Im Rahmen meiner Forschungsarbeit habe ich die erste Erfahrungen in der Algorithmenentwicklung für Fahrerassistenzsysteme und in der Sensortechnologie gesammelt. Im Verlauf der Forschungsarbeit habe ich zum einen selbständig die Messungen durchgeführt sowie deren Messdaten ausgewertet und zum anderen aufgetretene Probleme mit Arbeitskollegen diskutiert und dabei meine analytische Denkweise geschärft.
 %
@@ -84,50 +87,55 @@
 \vspace{3mm}
 \section{Praktische Erfahrungen}
 %\subsection{Vocational}
-\cventry[3pt]{09/2013 -- 03/2014}{Forschungsarbeit}{Robert Bosch GmbH}{Leonberg}{}{Thema der Forschungsarbeit: \textit{Optimierung und Validierung der Parameter der adaptiven Schwelle im ultraschallbasierten Detektionssystem }\vspace{2mm}
+\cventry[3pt]{09/2013 -- 03/2014}{Forschungsarbeit}{Robert Bosch GmbH}{Leonberg}{}{Thema: Optimierung und Validierung der Parameter der adaptiven Schwelle im ultraschallbasierten Detektionssystem\vspace{2mm} 
 \begin{itemize}
 \itemsep5pt
-\item Untersuchung der Abhängigkeit der Schwellenparameter von der Fahrbahnoberfläche und dem Sendemuster für unterschiedliche Entfernungen
-\item Entwurf des Messaufbaus und Durchführung der Messungen und Auswertung der Messdaten und Ermittlung fehlender Daten/ Szenen
-% \item Aufbau und Durchführung der Messungen
-\item Optimierung der Schwellenparameter und des Algorithmus
-\item Weiterentwicklung des Matlab (-GUI) Analyse-Tools und der Excel-VBA für die gezielte automatisierte Auswertung
+\item Erste Erfahrung im Umfeld von Fahrerassistenzsysteme
+\item Digitale Signalverarbeitung von Ultraschallsensor
+\item Optimierung des Algorithmus und Toolentwicklung in Matlab-GUI \& VBA
+%\item Entwurf des Messaufbaus und Durchführung der Messungen und Auswertung der Messdaten und Ermittlung fehlender Daten/ Szenen
+%% \item Aufbau und Durchführung der Messungen
+%\item Optimierung der Schwellenparameter und des Algorithmus
+%\item Weiterentwicklung des Matlab (-GUI) Analyse-Tools und der Excel-VBA für die gezielte automatisierte Auswertung
 \end{itemize}
 }
 
-\cventry[3pt]{10/2013 -- 02/2014}{Praktische Übung im Labor}{Institut für Signalverarbeitung und Systemtheorie, Universität Stuttgart}{}{}{Statistical Signal Processing – Automotive Radar:\vspace{1mm}
+\cventry[3pt]{10/2013 -- 02/2014}{Praktische Übung im Labor}{Universität Stuttgart}{}{}{Thema: Statistical Signal Processing – Automotive Radar\vspace{2mm}
 \begin{itemize}
-\item Aufbau des gesamten Frameworks für LFMCW-Radarsignalverarbeitung in Matlab
-\item Implementierung der Algorithmen für Abstandschätzung und Ojektverfolgung
+\itemsep5pt
+\item LFMCW-Radarsignalverarbeitung in Matlab
+\item Bestimmung der Position der Objekte und Tracking
 \end{itemize}
 }
 
-\cventry[3pt]{04/2013 -- 07/2013}{Studentischer Mitarbeiter}{Institut für Hochfrequenztechnik, Universität Stuttgart}{}{}{
-\begin{itemize}
-\item Entwicklung des Analyse-Tools für Antennendiagramm mit Matlab-GUI
-\item Abrechnungsdatenverarbeitung mit Excel-VBA 
+\cventry[3pt]{04/2013 -- 07/2013}{Studentischer Mitarbeiter}{Universität Stuttgart\vspace{2mm}}{}{}{\begin{itemize}
+\itemsep5pt
+\item Toolentwicklung für Antennendiagramm mit Matlab-GUI
+\item Toolentwicklung in Excel-VBA 
 \end{itemize}
 }
 
-\cventry[1pt]{09/2010}{Elektrotechnik-Praktikum}{Xidian Universität}{}{}{\begin{itemize}\item Aufbau eines
- Überlagerungsempfängeres \end{itemize}}
+\cventry[1pt]{09/2010}{Elektrotechnik-Praktikum}{Xidian Universität}{}{}{\begin{itemize}
+\item Aufbau eines
+ Überlagerungsempfängeres
+ \end{itemize}}
 
 
 \section{Ausbildung}
-\cventry{10/2012 -- 05/2015}{Master, Elektro- und Informationstechnik an der Universität Stuttgart}{Vertiefung: Informations- und Kommunikationstechnik}{}{}{Thema der Masterarbeit (Python): \textit{Deep Neural Network for Learning Speech Emotion Representation}\vspace{2mm}
-\begin{itemize}
+\cventry{10/2012 -- 05/2015}{Master, Elektrotechnik und Informationstechnik}{Universität Stuttgart}{Vertiefung: Informationstechnik und Kommunikationstechnik (Note:1,9)}{\newline Masterarbeit: Deep Neural Network for Learning Speech Emotion Representation, Note: 1,0\vspace{2mm}
+}{\begin{itemize}
  \itemsep5pt
- \item Untersuchung zur Emotionsmerkmale in Sprache und Vertiefung der Kenntnisse in Machine Learning und Deep Learning
-%  \item 
- \item Extrahieren des Merkmales durch CRBM
- \item Evaluierung der verwendeten Modellen im Vergleich zum Stand der Technik
-\end{itemize}
+ \item Erste Erfahrung in Mustererkennung und Machine Learning
+%%  \item 
+ \item Implementierung der komplexen Modelle und Algorithmen für Training
+ \item Optimierung der Modellenparameter und Algorithmen
+\end{itemize}}
+\cventry{08/2008 -- 07/2012}{Bachelor, Elektrotechnik und Informationstechnik}{Xidian Universität, China}{Vertiefung: Hochfrequenztechnik und Antennenstechnik (Note:2,2)}{\newline
+Bachelorarbeit: Eine Studie an Frequenzrekonfigurierbare Mehrbandantennen
 }
-\cventry{08/2008 -- 07/2012}{Bachelor, Elektro- und Informationstechnik an der Xidian Universität in Xi'an, China}{Vertiefung: Hochfrequenztechnik}{}{}{Thema der Bachelorarbeit (chinesisch): \textit{Eine Studie an Frequenzrekonfigurierbare Mehrbandantennen}
- \begin{itemize}
-  \item Studien und Modellierung einer drei-bändige Antennen in ANSYS HFSS.
- \end{itemize}
-}
+{ \begin{itemize}
+  \item Optimierung der Antennenparameter durch Simulation in ANSYS HFSS
+ \end{itemize}}
 
 % \section{Masterarbeit}
 % \cvitem{title}{\emph{Title}}
@@ -136,33 +144,35 @@
 
 \section{Fachliche Qualifikation}
 \cvitem{Simulation}{ANSYS HFSS}
-\cvitem[3pt]{Programmierung}{Fortgeschrittenenniveau in Matlab / VBA/ Python / C++\newline
-Grundkenntnisse in Javascript}
-\cvitem{Versionsverwaltung}{Fortgeschrittenenniveau in Git}
-\cvitem{Office}{sicherer Umgang mit MS-Office / Libre-Office}
-\cvitem{Textsatz}{\LaTeX{}}
-\cvitem{Betriebsystem}{Window/ Linux-Ubuntu}
-
-\section{Weiteres Engagement}
-\cvitem[3pt]{2012 -- 2013}{Mentee des „Interkulturellen Mentoring Programms“, Universität Stuttgart}
-\cvitem{2013}{Teilnahme an der „Rohde \& Schwarz Case Study“} 
-\cvitem{2015}{Erfolgreiche Teilnahme an 22. Stuttgart-Lauf Halbmarathon}
-
-
-
+\cvitem[3pt]{Programmierung}{sehr gute Kenntnisse in Matlab / VBA/ Python, Kenntnisse in C/C++}
+\cvitem[5pt]{Versionsverwaltung}{gute Kenntnisse in Git}
+\cvitem{Office}{MS-Office}
+%\cvitem{Textsatz}{\LaTeX{}}
+\cvitem{Betriebsystem}{Windows / Linux}
 
 \section{Sprachen}
 \cvdoubleitem{Chinesisch}{Mutterspache}{}{}
-\cvdoubleitem{Deutsch}{sehr gute Kenntnisse}{}{}
-\cvdoubleitem{Englisch}{sehr gute Kenntnisse}{}{}
+\cvdoubleitem{Deutsch}{fließend}{}{}
+\cvdoubleitem{Englisch}{fließend}{}{}
+
+\section{Weiteres Engagement}
+\cvitem[3pt]{09/2012 -- 09/2013}{Teilnahme an dem „Interkulturellen Mentoring Programms“ an der Universität Stuttgart}
+\cvitem{05/2013}{Teilnahme an der „Rohde \& Schwarz Case Study“ an der Universität Stuttgart} 
+\cvitem{06/2015}{Erfolgreiche Teilnahme an 22. Stuttgart-Lauf Halbmarathon}
+
+
 
 \vspace{1cm}
-\includegraphics[scale=0.7]{signature.png}\\
+\includegraphics[scale=0.5]{../Bild/unterschrift.png}\\
 \today, Stuttgart
 
 
 
 %\clearpage\end{CJK*}                              % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
+\includepdf[pages={-}]{../Certificates/Master-Bescheinigung.pdf}
+\includepdf[pages={-}]{../Certificates/BachelorUrkunde.pdf}
+\includepdf[pages={-}]{../Certificates/Notenspiegel_Master_Han.pdf}
+%\includepdf[pages={-}]{../Certificates/presentation-masterthesis-ZhuoweiHan.pdf}
 \end{document}
 
 

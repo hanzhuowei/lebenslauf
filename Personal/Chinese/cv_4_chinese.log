@@ -1,16 +1,14 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.4.23)  4 JUL 2015 17:25
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.17)  28 JUL 2015 13:02
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
 **cv_4_chinese.tex
-(./cv_4_chinese.tex
-LaTeX2e <2014/05/01>
-Babel <3.9k> and hyphenation patterns for 78 languages loaded.
-(./resume.cls
+(F:\lebenslauf\Personal\Chinese\cv_4_chinese.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for loaded.
+(F:\lebenslauf\Personal\Chinese\resume.cls
 Document Class: resume 2010/07/10 v0.9 Resume class
-(/usr/local/texlive/2014/texmf-dist/tex/latex/base/article.cls
+(E:\CTEX\MiKTeX\tex\latex\base\article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2014/texmf-dist/tex/latex/base/size11.clo
+(E:\CTEX\MiKTeX\tex\latex\base\size11.clo
 File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -25,10 +23,10 @@ File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/parskip/parskip.sty
+(E:\CTEX\MiKTeX\tex\latex\ltxmisc\parskip.sty
 Package: parskip 2001/04/09 non-zero parskip adjustments
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/tools/array.sty
+(E:\CTEX\MiKTeX\tex\latex\tools\array.sty
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen103
 \extrarowheight=\dimen104
@@ -36,29 +34,29 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \extratabsurround=\skip43
 \backup@length=\skip44
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/base/ifthen.sty
+(E:\CTEX\MiKTeX\tex\latex\base\ifthen.sty
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/cjk/texinput/CJKutf8.sty
-Package: CJKutf8 2012/05/07 4.8.3
+(E:\CTEX\MiKTeX\tex\latex\cjk\CJKutf8.sty
+Package: CJKutf8 2008/12/29 4.8.2
 
-(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+(E:\CTEX\MiKTeX\tex\generic\oberdiek\ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2014/04/30 v1.2b Input encoding file
+(E:\CTEX\MiKTeX\tex\latex\base\inputenc.sty
+Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks15
 \inpenc@posthook=\toks16
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/base/utf8.def
+(E:\CTEX\MiKTeX\tex\latex\base\utf8.def
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/base/t1enc.dfu
+(E:\CTEX\MiKTeX\tex\latex\base\t1enc.dfu
 File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -208,7 +206,7 @@ File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/base/ot1enc.dfu
+(E:\CTEX\MiKTeX\tex\latex\base\ot1enc.dfu
 File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -239,7 +237,7 @@ File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/base/omsenc.dfu
+(E:\CTEX\MiKTeX\tex\latex\base\omsenc.dfu
 File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -263,14 +261,14 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(/usr/local/texlive/2014/texmf-dist/tex/latex/cjk/texinput/CJK.sty
-Package: CJK 2012/05/07 4.8.3
+(E:\CTEX\MiKTeX\tex\latex\cjk\CJK.sty
+Package: CJK 2008/12/29 4.8.2
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/cjk/texinput/mule/MULEenc.sty
-Package: MULEenc 2012/05/07 4.8.3
+(E:\CTEX\MiKTeX\tex\latex\cjk\mule\MULEenc.sty
+Package: MULEenc 2008/12/29 4.8.2
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/cjk/texinput/CJK.enc
-File: CJK.enc 2012/05/07 4.8.3
+(E:\CTEX\MiKTeX\tex\latex\cjk\CJK.enc
+File: CJK.enc 2008/12/29 4.8.2
 Now handling font encoding C00 ...
 ... no UTF-8 mapping file for font encoding C00
 Now handling font encoding C05 ...
@@ -336,24 +334,24 @@ Now handling font encoding C41 ...
 Now handling font encoding C62 ...
 ... no UTF-8 mapping file for font encoding C62
 )
-LaTeX Info: Redefining \selectfont on input line 755.
+LaTeX Info: Redefining \selectfont on input line 756.
 \CJK@indent=\box26
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/base/fontenc.sty
+(E:\CTEX\MiKTeX\tex\latex\base\fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 )))
-(/usr/local/texlive/2014/texmf-dist/tex/latex/geometry/geometry.sty
+(E:\CTEX\MiKTeX\tex\latex\geometry\geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
+(E:\CTEX\MiKTeX\tex\latex\graphics\keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks17
 )
-(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifvtex.sty
-Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+(E:\CTEX\MiKTeX\tex\generic\oberdiek\ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Switches for detecting VTeX and its modes (HO)
 Package ifvtex Info: VTeX not detected.
 )
-(/usr/local/texlive/2014/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+(E:\CTEX\MiKTeX\tex\generic\ifxetex\ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count87
@@ -368,11 +366,12 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layouthoffset=\dimen111
 \Gm@layoutvoffset=\dimen112
 \Gm@dimlist=\toks18
-)
-(/usr/local/texlive/2014/texmf-dist/tex/latex/pdfpages/pdfpages.sty
-Package: pdfpages 2013/08/25 v0.4v Insert pages of external PDF documents (AM)
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/tools/calc.sty
+(E:\CTEX\MiKTeX\tex\latex\geometry\geometry.cfg))
+(E:\CTEX\MiKTeX\tex\latex\pdfpages\pdfpages.sty
+Package: pdfpages 2011/03/10 v0.4n Insert pages of external PDF documents (AM)
+
+(E:\CTEX\MiKTeX\tex\latex\tools\calc.sty
 Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count90
 \calc@Bcount=\count91
@@ -380,32 +379,32 @@ Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Bdimen=\dimen114
 \calc@Askip=\skip45
 \calc@Bskip=\skip46
-LaTeX Info: Redefining \setlength on input line 75.
-LaTeX Info: Redefining \addtolength on input line 76.
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
 \calc@Ccount=\count92
 \calc@Cskip=\skip47
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/eso-pic/eso-pic.sty
-Package: eso-pic 2013/10/06 v2.0d eso-pic (RN)
+(E:\CTEX\MiKTeX\tex\latex\eso-pic\eso-pic.sty
+Package: eso-pic 2010/10/06 v2.0c eso-pic (RN)
 
-(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/atbegshi.sty
-Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+(E:\CTEX\MiKTeX\tex\generic\oberdiek\atbegshi.sty
+Package: atbegshi 2011/01/30 v1.15 At begin shipout hook (HO)
 
-(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+(E:\CTEX\MiKTeX\tex\generic\oberdiek\infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
 )
-(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+(E:\CTEX\MiKTeX\tex\generic\oberdiek\ltxcmds.sty
+Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
 ))
-(/usr/local/texlive/2014/texmf-dist/tex/latex/xcolor/xcolor.sty
+(E:\CTEX\MiKTeX\tex\latex\xcolor\xcolor.sty
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/color.cfg
+(E:\CTEX\MiKTeX\tex\latex\00miktex\color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/pdftex-def/pdftex.def
+(E:\CTEX\MiKTeX\tex\latex\pdftex-def\pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 \Gread@gobject=\count93
 )
@@ -419,34 +418,32 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 ))
-(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+(E:\CTEX\MiKTeX\tex\latex\graphics\graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphics.sty
+(E:\CTEX\MiKTeX\tex\latex\graphics\graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/trig.sty
+(E:\CTEX\MiKTeX\tex\latex\graphics\trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+(E:\CTEX\MiKTeX\tex\latex\00miktex\graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 )
 \Gin@req@height=\dimen115
 \Gin@req@width=\dimen116
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/pdfpages/pppdftex.def
-File: pppdftex.def 2013/08/25 v0.4v Pdfpages driver for pdfTeX (AM)
+(E:\CTEX\MiKTeX\tex\latex\pdfpages\pppdftex.def
+File: pppdftex.def 2011/03/10 v0.4n Pdfpages driver for pdfTeX (AM)
 )
 \AM@pagebox=\box27
 \AM@toc@title=\toks19
 \c@AM@survey=\count94
 \AM@templatesizebox=\box28
 )
-No file cv_4_chinese.aux.
-\openout1 = `cv_4_chinese.aux'.
-
+(F:\lebenslauf\Personal\Chinese\cv_4_chinese.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
 LaTeX Font Info:    ... okay on input line 35.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
@@ -523,6 +520,7 @@ LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 35.
 LaTeX Font Info:    ... okay on input line 35.
 LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 35.
 LaTeX Font Info:    ... okay on input line 35.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -558,7 +556,7 @@ LaTeX Font Info:    ... okay on input line 35.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box29
-(/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
+(E:\CTEX\MiKTeX\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count95
 \scratchdimen=\dimen117
@@ -571,75 +569,32 @@ LaTeX Font Info:    ... okay on input line 35.
 \MPnumerator=\count99
 \makeMPintoPDFobject=\count100
 \everyMPtoPDFconversion=\toks21
-) (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
-
-(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
-(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
-
-(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-))
-(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
-
-(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
-
-(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
 Overfull \hbox (30.0pt too wide) in paragraph at lines 35--35
 [] 
  []
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.bdg
-File: UTF8.bdg 2012/05/07 4.8.3
+(E:\CTEX\MiKTeX\tex\latex\cjk\UTF8\UTF8.bdg
+File: UTF8.bdg 2008/12/29 4.8.2
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
-File: UTF8.enc 2012/05/07 4.8.3
+(E:\CTEX\MiKTeX\tex\latex\cjk\UTF8\UTF8.enc
+File: UTF8.enc 2008/12/29 4.8.2
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
-File: UTF8.chr 2012/05/07 4.8.3
+(E:\CTEX\MiKTeX\tex\latex\cjk\UTF8\UTF8.chr
+File: UTF8.chr 2008/12/29 4.8.2
 )
 LaTeX Font Info:    Try loading font information for C70+gbsn on input line 41.
 
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/cjk/texinput/UTF8/c70gbsn.fd
-File: c70gbsn.fd 2012/05/07 4.8.3
+(E:\CTEX\MiKTeX\tex\latex\cjk\UTF8\c70gbsn.fd
+File: c70gbsn.fd 2008/12/29 4.8.2
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/cjk/texinput/UTF8/c70gbsn.fdx
-File: c70gbsn.fdx 2012/05/07 4.8.3
+(E:\CTEX\MiKTeX\tex\latex\cjk\UTF8\c70gbsn.fdx
+File: c70gbsn.fdx 2008/12/29 4.8.2
 )
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 54.
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
+(E:\CTEX\MiKTeX\tex\latex\base\omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
@@ -671,142 +626,103 @@ Underfull \hbox (badness 10000) in paragraph at lines 118--119
 
 [1
 
-{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<../Certificates/GradingMasterHan.pdf, id=134, 597.23125pt x 845.1575pt>
-File: ../Certificates/GradingMasterHan.pdf Graphic file (type pdf)
-
-<use ../Certificates/GradingMasterHan.pdf>
-Package pdftex.def Info: ../Certificates/GradingMasterHan.pdf used on input lin
-e 178.
+{E:/CTEX/UserData/pdftex/config/pdftex.map{Unicode.sfd}{UGBK.sfd}}]
+<../Certificates/Transcript_master.pdf, id=135, page=1, 597.23125pt x 845.1575p
+t>
+File: ../Certificates/Transcript_master.pdf Graphic file (type pdf)
+ <use ../Certificates/Transcript_master.pdf, page 1>
+Package pdftex.def Info: ../Certificates/Transcript_master.pdf, page1 used on i
+nput line 178.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-File: ../Certificates/GradingMasterHan.pdf Graphic file (type pdf)
+File: ../Certificates/Transcript_master.pdf Graphic file (type pdf)
 
-<use ../Certificates/GradingMasterHan.pdf>
-Package pdftex.def Info: ../Certificates/GradingMasterHan.pdf used on input lin
-e 178.
-(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-
-<../Certificates/GradingMasterHan.pdf, id=137, page=1, 597.23125pt x 845.1575pt
->
-File: ../Certificates/GradingMasterHan.pdf Graphic file (type pdf)
- <use ../Certificates/GradingMasterHan.pdf, page 1>
-Package pdftex.def Info: ../Certificates/GradingMasterHan.pdf, page1 used on in
-put line 178.
-(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-File: ../Certificates/GradingMasterHan.pdf Graphic file (type pdf)
-
-<use ../Certificates/GradingMasterHan.pdf, page 1>
-Package pdftex.def Info: ../Certificates/GradingMasterHan.pdf, page1 used on in
-put line 178.
+<use ../Certificates/Transcript_master.pdf, page 1>
+Package pdftex.def Info: ../Certificates/Transcript_master.pdf, page1 used on i
+nput line 178.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
-File: ../Certificates/GradingMasterHan.pdf Graphic file (type pdf)
+File: ../Certificates/Transcript_master.pdf Graphic file (type pdf)
 
-<use ../Certificates/GradingMasterHan.pdf, page 1>
-Package pdftex.def Info: ../Certificates/GradingMasterHan.pdf, page1 used on in
-put line 178.
+<use ../Certificates/Transcript_master.pdf, page 1>
+Package pdftex.def Info: ../Certificates/Transcript_master.pdf, page1 used on i
+nput line 178.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
-File: ../Certificates/GradingMasterHan.pdf Graphic file (type pdf)
+File: ../Certificates/Transcript_master.pdf Graphic file (type pdf)
 
-<use ../Certificates/GradingMasterHan.pdf, page 1>
-Package pdftex.def Info: ../Certificates/GradingMasterHan.pdf, page1 used on in
-put line 178.
+<use ../Certificates/Transcript_master.pdf, page 1>
+Package pdftex.def Info: ../Certificates/Transcript_master.pdf, page1 used on i
+nput line 178.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
-File: ../Certificates/GradingMasterHan.pdf Graphic file (type pdf)
+File: ../Certificates/Transcript_master.pdf Graphic file (type pdf)
 
-<use ../Certificates/GradingMasterHan.pdf, page 1>
-Package pdftex.def Info: ../Certificates/GradingMasterHan.pdf, page1 used on in
-put line 178.
+<use ../Certificates/Transcript_master.pdf, page 1>
+Package pdftex.def Info: ../Certificates/Transcript_master.pdf, page1 used on i
+nput line 178.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
  [2
 
- <../Certificates/GradingMasterHan.pdf>]
-<../Certificates/GermanyGradingToUSA-GPA.png, id=149, 462.72874pt x 363.3575pt>
-File: ../Certificates/GermanyGradingToUSA-GPA.png Graphic file (type png)
-<use ../Certificates/GermanyGradingToUSA-GPA.png>
-Package pdftex.def Info: ../Certificates/GermanyGradingToUSA-GPA.png used on in
-put line 180.
-(pdftex.def)             Requested size: 462.72762pt x 363.3566pt.
- [3 <../Certificates/GermanyGradingToUSA-GPA.png>] (./cv_4_chinese.aux)
+ <F:/lebenslauf/Personal/Certificates/Transcript_master.pdf>]
+(F:\lebenslauf\Personal\Chinese\cv_4_chinese.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 5606 strings out of 493117
- 76295 string characters out of 6135433
- 154561 words of memory out of 5000000
- 8750 multiletter control sequences out of 15000+600000
- 25455 words of font info for 90 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 39i,18n,45p,250b,863s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
-usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
-r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/l
-ocal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/lo
-cal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
-al/texlive/2014/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu4e.pfb></usr/local/tex
-live/2014/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu4f.pfb></usr/local/texlive/2
-014/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu51.pfb></usr/local/texlive/2014/te
-xmf-dist/fonts/type1/arphic/gbsnu/gbsnu52.pfb></usr/local/texlive/2014/texmf-di
-st/fonts/type1/arphic/gbsnu/gbsnu53.pfb></usr/local/texlive/2014/texmf-dist/fon
-ts/type1/arphic/gbsnu/gbsnu54.pfb></usr/local/texlive/2014/texmf-dist/fonts/typ
-e1/arphic/gbsnu/gbsnu56.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/arp
-hic/gbsnu/gbsnu57.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/arphic/gb
-snu/gbsnu58.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/arphic/gbsnu/gb
-snu59.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu5b.
-pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu5c.pfb></
-usr/local/texlive/2014/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu5d.pfb></usr/lo
-cal/texlive/2014/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu5e.pfb></usr/local/te
-xlive/2014/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu5f.pfb></usr/local/texlive/
-2014/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu60.pfb></usr/local/texlive/2014/t
-exmf-dist/fonts/type1/arphic/gbsnu/gbsnu61.pfb></usr/local/texlive/2014/texmf-d
-ist/fonts/type1/arphic/gbsnu/gbsnu62.pfb></usr/local/texlive/2014/texmf-dist/fo
-nts/type1/arphic/gbsnu/gbsnu63.pfb></usr/local/texlive/2014/texmf-dist/fonts/ty
-pe1/arphic/gbsnu/gbsnu64.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/ar
-phic/gbsnu/gbsnu65.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/arphic/g
-bsnu/gbsnu66.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/arphic/gbsnu/g
-bsnu67.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu68
-.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu69.pfb><
-/usr/local/texlive/2014/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu6a.pfb></usr/l
-ocal/texlive/2014/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu6b.pfb></usr/local/t
-exlive/2014/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu6c.pfb></usr/local/texlive
-/2014/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu6d.pfb></usr/local/texlive/2014/
-texmf-dist/fonts/type1/arphic/gbsnu/gbsnu6e.pfb></usr/local/texlive/2014/texmf-
-dist/fonts/type1/arphic/gbsnu/gbsnu71.pfb></usr/local/texlive/2014/texmf-dist/f
-onts/type1/arphic/gbsnu/gbsnu72.pfb></usr/local/texlive/2014/texmf-dist/fonts/t
-ype1/arphic/gbsnu/gbsnu73.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/a
-rphic/gbsnu/gbsnu74.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/arphic/
-gbsnu/gbsnu75.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/arphic/gbsnu/
-gbsnu76.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu7
-7.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu78.pfb>
-</usr/local/texlive/2014/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu79.pfb></usr/
-local/texlive/2014/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu7a.pfb></usr/local/
-texlive/2014/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu7b.pfb></usr/local/texliv
-e/2014/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu7c.pfb></usr/local/texlive/2014
-/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu7e.pfb></usr/local/texlive/2014/texmf
--dist/fonts/type1/arphic/gbsnu/gbsnu7f.pfb></usr/local/texlive/2014/texmf-dist/
-fonts/type1/arphic/gbsnu/gbsnu80.pfb></usr/local/texlive/2014/texmf-dist/fonts/
-type1/arphic/gbsnu/gbsnu81.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/
-arphic/gbsnu/gbsnu82.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/arphic
-/gbsnu/gbsnu88.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/arphic/gbsnu
-/gbsnu89.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu
-8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu8b.pfb
-></usr/local/texlive/2014/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu8d.pfb></usr
-/local/texlive/2014/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu8e.pfb></usr/local
-/texlive/2014/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu8f.pfb></usr/local/texli
-ve/2014/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu90.pfb></usr/local/texlive/201
-4/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu95.pfb></usr/local/texlive/2014/texm
-f-dist/fonts/type1/arphic/gbsnu/gbsnu96.pfb></usr/local/texlive/2014/texmf-dist
-/fonts/type1/arphic/gbsnu/gbsnu97.pfb></usr/local/texlive/2014/texmf-dist/fonts
-/type1/arphic/gbsnu/gbsnu98.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1
-/arphic/gbsnu/gbsnu9a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/arphi
-c/gbsnu/gbsnuff.pfb>
-Output written on cv_4_chinese.pdf (3 pages, 330521 bytes).
+ 5239 strings out of 495354
+ 67375 string characters out of 3183859
+ 150771 words of memory out of 3000000
+ 8114 multiletter control sequences out of 15000+200000
+ 25157 words of font info for 89 fonts, out of 3000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 39i,18n,43p,257b,863s stack positions out of 5000i,500n,10000p,200000b,50000s
+<E:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><E:/CTEX/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmbx12.pfb><E:/CTEX/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmr10.pfb><E:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><E:/CT
+EX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><E:/CTEX/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmsy10.pfb><E:/CTEX/MiKTeX/fonts/type1/arphic/gbsnu/gbsnu4e
+.pfb><E:/CTEX/MiKTeX/fonts/type1/arphic/gbsnu/gbsnu4f.pfb><E:/CTEX/MiKTeX/fonts
+/type1/arphic/gbsnu/gbsnu51.pfb><E:/CTEX/MiKTeX/fonts/type1/arphic/gbsnu/gbsnu5
+2.pfb><E:/CTEX/MiKTeX/fonts/type1/arphic/gbsnu/gbsnu53.pfb><E:/CTEX/MiKTeX/font
+s/type1/arphic/gbsnu/gbsnu54.pfb><E:/CTEX/MiKTeX/fonts/type1/arphic/gbsnu/gbsnu
+56.pfb><E:/CTEX/MiKTeX/fonts/type1/arphic/gbsnu/gbsnu57.pfb><E:/CTEX/MiKTeX/fon
+ts/type1/arphic/gbsnu/gbsnu58.pfb><E:/CTEX/MiKTeX/fonts/type1/arphic/gbsnu/gbsn
+u59.pfb><E:/CTEX/MiKTeX/fonts/type1/arphic/gbsnu/gbsnu5b.pfb><E:/CTEX/MiKTeX/fo
+nts/type1/arphic/gbsnu/gbsnu5c.pfb><E:/CTEX/MiKTeX/fonts/type1/arphic/gbsnu/gbs
+nu5d.pfb><E:/CTEX/MiKTeX/fonts/type1/arphic/gbsnu/gbsnu5e.pfb><E:/CTEX/MiKTeX/f
+onts/type1/arphic/gbsnu/gbsnu5f.pfb><E:/CTEX/MiKTeX/fonts/type1/arphic/gbsnu/gb
+snu60.pfb><E:/CTEX/MiKTeX/fonts/type1/arphic/gbsnu/gbsnu61.pfb><E:/CTEX/MiKTeX/
+fonts/type1/arphic/gbsnu/gbsnu62.pfb><E:/CTEX/MiKTeX/fonts/type1/arphic/gbsnu/g
+bsnu63.pfb><E:/CTEX/MiKTeX/fonts/type1/arphic/gbsnu/gbsnu64.pfb><E:/CTEX/MiKTeX
+/fonts/type1/arphic/gbsnu/gbsnu65.pfb><E:/CTEX/MiKTeX/fonts/type1/arphic/gbsnu/
+gbsnu66.pfb><E:/CTEX/MiKTeX/fonts/type1/arphic/gbsnu/gbsnu67.pfb><E:/CTEX/MiKTe
+X/fonts/type1/arphic/gbsnu/gbsnu68.pfb><E:/CTEX/MiKTeX/fonts/type1/arphic/gbsnu
+/gbsnu69.pfb><E:/CTEX/MiKTeX/fonts/type1/arphic/gbsnu/gbsnu6a.pfb><E:/CTEX/MiKT
+eX/fonts/type1/arphic/gbsnu/gbsnu6b.pfb><E:/CTEX/MiKTeX/fonts/type1/arphic/gbsn
+u/gbsnu6c.pfb><E:/CTEX/MiKTeX/fonts/type1/arphic/gbsnu/gbsnu6d.pfb><E:/CTEX/MiK
+TeX/fonts/type1/arphic/gbsnu/gbsnu6e.pfb><E:/CTEX/MiKTeX/fonts/type1/arphic/gbs
+nu/gbsnu71.pfb><E:/CTEX/MiKTeX/fonts/type1/arphic/gbsnu/gbsnu72.pfb><E:/CTEX/Mi
+KTeX/fonts/type1/arphic/gbsnu/gbsnu73.pfb><E:/CTEX/MiKTeX/fonts/type1/arphic/gb
+snu/gbsnu74.pfb><E:/CTEX/MiKTeX/fonts/type1/arphic/gbsnu/gbsnu75.pfb><E:/CTEX/M
+iKTeX/fonts/type1/arphic/gbsnu/gbsnu76.pfb><E:/CTEX/MiKTeX/fonts/type1/arphic/g
+bsnu/gbsnu77.pfb><E:/CTEX/MiKTeX/fonts/type1/arphic/gbsnu/gbsnu78.pfb><E:/CTEX/
+MiKTeX/fonts/type1/arphic/gbsnu/gbsnu79.pfb><E:/CTEX/MiKTeX/fonts/type1/arphic/
+gbsnu/gbsnu7a.pfb><E:/CTEX/MiKTeX/fonts/type1/arphic/gbsnu/gbsnu7b.pfb><E:/CTEX
+/MiKTeX/fonts/type1/arphic/gbsnu/gbsnu7c.pfb><E:/CTEX/MiKTeX/fonts/type1/arphic
+/gbsnu/gbsnu7e.pfb><E:/CTEX/MiKTeX/fonts/type1/arphic/gbsnu/gbsnu7f.pfb><E:/CTE
+X/MiKTeX/fonts/type1/arphic/gbsnu/gbsnu80.pfb><E:/CTEX/MiKTeX/fonts/type1/arphi
+c/gbsnu/gbsnu81.pfb><E:/CTEX/MiKTeX/fonts/type1/arphic/gbsnu/gbsnu82.pfb><E:/CT
+EX/MiKTeX/fonts/type1/arphic/gbsnu/gbsnu88.pfb><E:/CTEX/MiKTeX/fonts/type1/arph
+ic/gbsnu/gbsnu89.pfb><E:/CTEX/MiKTeX/fonts/type1/arphic/gbsnu/gbsnu8a.pfb><E:/C
+TEX/MiKTeX/fonts/type1/arphic/gbsnu/gbsnu8b.pfb><E:/CTEX/MiKTeX/fonts/type1/arp
+hic/gbsnu/gbsnu8d.pfb><E:/CTEX/MiKTeX/fonts/type1/arphic/gbsnu/gbsnu8e.pfb><E:/
+CTEX/MiKTeX/fonts/type1/arphic/gbsnu/gbsnu8f.pfb><E:/CTEX/MiKTeX/fonts/type1/ar
+phic/gbsnu/gbsnu90.pfb><E:/CTEX/MiKTeX/fonts/type1/arphic/gbsnu/gbsnu95.pfb><E:
+/CTEX/MiKTeX/fonts/type1/arphic/gbsnu/gbsnu96.pfb><E:/CTEX/MiKTeX/fonts/type1/a
+rphic/gbsnu/gbsnu97.pfb><E:/CTEX/MiKTeX/fonts/type1/arphic/gbsnu/gbsnu98.pfb><E
+:/CTEX/MiKTeX/fonts/type1/arphic/gbsnu/gbsnu9a.pfb><E:/CTEX/MiKTeX/fonts/type1/
+arphic/gbsnu/gbsnuff.pfb>
+Output written on cv_4_chinese.pdf (2 pages, 352232 bytes).
 PDF statistics:
- 364 PDF objects out of 1000 (max. 8388607)
- 219 compressed objects within 3 object streams
+ 349 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 270 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 260 words of extra memory for PDF output out of 10000 (max. 10000000)
 
